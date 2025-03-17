@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials (DO NOT COMMIT SENSITIVE FILES)
+*.pem
+*.key
+*.crt
+aws_credentials
+
+# Ignore Terraform variable files containing secrets
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+
+# Ignore logs and system files
+*.log
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Ignore SSH private keys (important for security)
+id_rsa
+id_rsa.pub
+
