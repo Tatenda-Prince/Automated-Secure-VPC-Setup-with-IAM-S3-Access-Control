@@ -132,9 +132,10 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 ![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/0a2692709d53dbf7c2d17c9ece1cb60feee1bb4b/screenshots/Screenshot%202025-03-18%20121813.png)
 
+
 3.2.In the AWS Management Console, head to the Amazon S3 Console and verify that there is Bucket as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/c502e9634065458d454d6bd69e35edd2a4fc5701/screenshots/Screenshot%202025-03-18%20121845.png)
 
 
 Now Head to your bucket permission Tab and copy the bucket policy json file below and click edit Bucket policy and click the orange button to save changes.
@@ -143,6 +144,7 @@ Now Head to your bucket permission Tab and copy the bucket policy json file belo
 
 
 ```
+
 
 3.3.In the AWS Management Console, head to the VPC dashboard and verify that you have a custom VPC created as show below
 
