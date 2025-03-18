@@ -124,7 +124,7 @@ Terraform will initiate the process of applying all the changes to the infrastru
 ## Success
 The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/c81c7181a7b3c8f5adad09fe2fb5a8e97f8217f2/screenshots/Screenshot%202025-03-18%20121607.png)
 
 
 ## Step 3: Verify creation of our resources
