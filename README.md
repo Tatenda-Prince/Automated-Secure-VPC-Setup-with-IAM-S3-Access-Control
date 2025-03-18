@@ -141,14 +141,65 @@ The process should now conclude with a message indicating “Apply complete”, 
 Now Head to your bucket permission Tab and copy the bucket policy json file below and click edit Bucket policy and click the orange button to save changes.
 
 ```langauge
-
-
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::secure-private-s3-bucket-tatenda",
+            "Condition": {
+                "StringNotEqualsIfExists": {
+                    "aws:PrincipalArn": "arn:aws:iam::<YOUR ACCOUNT ID>:role/EC2S3AccessRole"
+                }
+            }
+        },
+        {
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:DeleteObject",
+            "Resource": "arn:aws:s3:::secure-private-s3-bucket-tatenda/*",
+            "Condition": {
+                "Bool": { "aws:MultiFactorAuthPresent": "false" }
+            }
+        },
+        {
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::secure-private-s3-bucket-tatenda/*",
+            "Condition": {
+                "Bool": { "aws:SecureTransport": "false" }
+            }
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::<YOUR ACCOUNT ID> :role/EC2S3AccessRole"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "arn:aws:s3:::secure-private-s3-bucket-tatenda/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceVpce": "YOUR VPC ENDPOINT ID"
+                },
+                "StringEqualsIfExists": {
+                    "s3:x-amz-server-side-encryption": "aws:kms"
+                }
+            }
+        }
+    ]
+}
 ```
 
 
 3.3.In the AWS Management Console, head to the VPC dashboard and verify that you have a custom VPC created as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/0b22d6ab602bb792a7c5ed54d77a9147e882f8b8/screenshots/Screenshot%202025-03-18%20121927.png)
 
 
 
