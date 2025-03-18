@@ -118,7 +118,7 @@ terraform apply
 
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/75cb27b58f574ab2910e2fbda6076bc922be4457/screenshots/Screenshot%202025-03-18%20121327.png)
 
 
 ## Success
