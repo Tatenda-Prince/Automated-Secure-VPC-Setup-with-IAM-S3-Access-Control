@@ -84,7 +84,7 @@ terraform init
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/0026b9d0a63fbff87786c9253fd354df27a3e963/screenshots/Screenshot%202025-03-18%20120406.png)
 
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
