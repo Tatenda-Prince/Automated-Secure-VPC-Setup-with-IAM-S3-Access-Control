@@ -130,7 +130,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 ## Step 3: Verify creation of our resources
 3.1.In the AWS Management Console, head to the EC2 Instance Console and verify that there is instance running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/0a2692709d53dbf7c2d17c9ece1cb60feee1bb4b/screenshots/Screenshot%202025-03-18%20121813.png)
 
 3.2.In the AWS Management Console, head to the Amazon S3 Console and verify that there is Bucket as show below
 
