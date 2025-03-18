@@ -213,7 +213,7 @@ In AWS Management Console head to your EC2 dashboard and click on `Connect` and 
 Expected Result: You should be connected to the EC2 instance without using SSH or a public IP.
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/fa946af9de2eacd81097fce3bbe366aa02e4dbcf/screenshots/Screenshot%202025-03-18%20125830.png)
 
 
 4.2.Verify S3 Access Control
