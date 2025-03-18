@@ -1,6 +1,6 @@
 # Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/2fb3a4ca41c58fb9e0eb09a389e2906e29a76719/screenshots/Screenshot%202025-03-17%20203717.png)
 
 
 ## Project Overview
