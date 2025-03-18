@@ -223,7 +223,7 @@ From the EC2 instance, try listing the S3 bucket:
 aws s3 ls s3://secure-private-s3-bucket
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/9da05cb817d0c00e6656f516e5f9b83642fefa81/screenshots/Screenshot%202025-03-18%20123827.png)
 
 Expected Result: The bucket should be listed with Objects
 
