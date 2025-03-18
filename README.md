@@ -165,6 +165,7 @@ Expected Result: You should be connected to the EC2 instance without using SSH o
 
 4.2.Verify S3 Access Control
 From the EC2 instance, try listing the S3 bucket:
+
 ```language
 aws s3 ls s3://secure-private-s3-bucket
 ```
