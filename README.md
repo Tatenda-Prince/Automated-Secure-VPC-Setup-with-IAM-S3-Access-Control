@@ -207,7 +207,7 @@ Now Head to your bucket permission Tab and copy the bucket policy json file belo
 4.1.Connect to EC2 Using SSM Session Manager
 In AWS Management Console head to your EC2 dashboard and click on `Connect` and choose Session Manager. 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/b9ed1526568e2980837702783df29308b7963088/screenshots/Screenshot%202025-03-18%20123532.png)
 
 
 Expected Result: You should be connected to the EC2 instance without using SSH or a public IP.
