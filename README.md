@@ -233,7 +233,7 @@ Expected Result: The bucket should be listed with Objects
 aws s3 ls s3://secure-private-s3-bucket
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/c6376b985000d8953d480be67659f6db360f0ca3/screenshots/Screenshot%202025-03-18%20124231.png)
 
 Expected Result: Access Denied (Only EC2 can access).
 
