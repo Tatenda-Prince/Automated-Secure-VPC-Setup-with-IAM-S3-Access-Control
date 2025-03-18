@@ -95,7 +95,7 @@ terraform validate
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/12eb5c17f7e9b712e47d1e5ac52d206b67f85914/screenshots/Screenshot%202025-03-18%20120619.png)
 
 
 2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
