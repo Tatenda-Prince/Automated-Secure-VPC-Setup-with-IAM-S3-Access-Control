@@ -104,7 +104,7 @@ The command should generate a success message, confirming that it is valid, as d
 terraform plan
 ```
 
-![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/809a364872e41c8218e29f57966a5d3eda8fb5a4/screenshots/Screenshot%202025-03-18%20120619.png)
+![image_alt](https://github.com/Tatenda-Prince/Automated-Secure-VPC-Setup-with-IAM-S3-Access-Control/blob/26b83ff541d460ac7dee4fb6cce6e62068475d33/screenshots/Screenshot%202025-03-18%20121214.png)
 
 
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
